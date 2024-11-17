@@ -1,0 +1,265 @@
+
+1. Introduction
+The COVID-19 pandemic has impacted every sector and aspect of our daily lives. In a time of uncertainty and speculation, some things need to be ensured, and the education of our youth is one of them. 
+
+During the height of the pandemic, from March to June of 2020, students and teachers along the world faced unseen challenges to carry on with their education, and a particularly affected group were those students graduating from high school and pursuing higher education in universities across the globe. 
+
+The pressure to hold these exams weighed heavily on local governments, universities and the medical authorities, as they needed to closely collaborate to ensure a safe environment for the testing to take place, minimizing health risks and guaranteeing normality.
+
+By applying machine learning predictive methods, we aim to address the risks related to holding these massified examinations, identifying the potential students exposed to severe outcomes and allowing targeted preventive measures to be put in place when organizing the exams. 
+
+The main beneficiaries of this predictive model will be the students, who are uneasy about their academic future and will be assured of a safe environment, but also many stakeholders such as universities in charge of the organization of the exams, medical institutions responsible of the healthcare of the population, and the authorities accountable for the outcomes of the decisions made to tackle the issue of the COVID-19 pandemic. 
+
+2. Cost/Benefit Analysis for Stakeholders
+Benefits
+Improvement of resource allocation: by using the machine learning predictive model, universities and the healthcare system will be able to efficiently allocate resources to those students who are more vulnerable. Prevention strategies can be tailored by universities and early intervention plans can be drawn up by hospitals to tackle these concerns, 
+
+Personalized testing environments: the main preventive strategy will be centered around providing adequate and safer testing environments for students. The universities will use the analysis provided by the model to classify the students into risk levels, assigning different scenarios for their examinations:
+
+Low risk students: due to the fact that highschoolers are predominantly young and healthy, the COVID-19 virus does not pose a huge threat to their wellbeing, we can greatly reduce operational cost by having those who are apparently healthy take the exam in regular classrooms. As a preventive measure, these classrooms will have their capacity reduced to minimize transmission.
+
+High risk students: some health conditions may pose a greater risk than others, especially when combined with a viral infection such as COVID-19. For those students most threatened by the effects of the virus, exams may be carried out with extra precaution measures, such as small group or individual rooms and additional PCR testing. In some extreme cases, online examinations may be carried out.
+
+Sick students: alternative dates may be offered for those students who are affected by the disease at the date of the examination, allowing them to recover and reducing transmission risks. In some extreme cases, such as long-term hospitalized students, online testing may be carried out.
+
+Better patient care:  with the classification algorithms offered by the model, hospitals are able to offer preemptive measures and timely interventions for those students that, if they were to fall ill, would be at a greater risk of suffering a severe outcome.
+
+Financial savings for the healthcare system: by applying the measures previously mentioned, those students who would be more likely to fall severely ill, often requiring a very costly hospitalization or even Intensive Care Unit (ICU) admission, would not strain the finances of the healthcare system.
+
+Enhanced collaboration and readiness: by implementing this predictive model universities and education authorities must work hand in hand to collect data, enabling the government or ministry of education to take necessary actions or political decisions, as well as use the data for future similar situations. Collaboration with medical institutions will be also crucial for data collection and for coordinating efforts.
+
+Social impact: knowing that these prevention efforts exist will allow students to feel assured that they will have the same examination opportunities as everyone else in case they fall ill, ensuring the continuity of their education. Identifying and isolating at risk students would also reduce Covid outbreaks during exam periods, hence, significant savings in healthcare systems.
+
+Costs
+Development costs: The development of the model involves  financial expenditures in terms of human resources and technology in order to achieve an effective mode that identifies students who need exceptional measures during exam periods:
+ 
+Human resources: 
+
+Data science team: It will be necessary to build a data science team, including machine learning engineers and data engineers who will develop and maintain the systems that collect and store the data. After building the infrastructure, hiring data scientists and data analysts will be essential to design and train machine learning models, who know not only how data works, but also when it's not worth it.
+External consultants: in some cases  it may be beneficial to hire individuals who have previous experience with similar predictive models in the context of education or health care.
+
+Technology resources: 
+
+Software licenses: it is essential to acquire licenses for the use of machine learning platforms as well as data analysis tools. These software tools, such as MATLAB or SAP, are capable of detecting patterns in analyzed student health and academic data and make predictive analytics functions. 
+Cloud services: Investing in cloud services to store and process the data will be necessary too, which implies additional costs in cloud platforms.
+Servers and equipment: expenses will be incurred both in software and in the purchase of servers and high-capacity equipment needed for data processing and model training.
+Security tools: will be implemented to protect student data during its development and storage.
+
+Implementation costs: After developing the model, its implementation in the educational environment to take COVID measures also carries a series of costs to make it work properly and to integrate the systems correctly.
+
+Integration of the model: Software engineers will be hired to integrate the model into existing educational and health systems. These engineers will create user interfaces that allow access in real-time predictions and facilitate decision making. This includes the implementation of security and privacy protocols to protect student data.
+Staff training: we will invest in training of educational and health personnel, as well as materials such as manuals to familiarize them with the model and how to take the recommended strategies for the student.
+Maintenance of the model: As it is a continuous integration system, updates and enhancements will be pursued as new data is collected or if new scenarios emerge throughout the pandemic to ensure its accuracy.
+
+Return on Investment (ROI)
+The potential benefits of this project are beyond the economic aspect. While the savings that this model may induce by avoiding the high costs associated with ICU admissions and the treatment of severe COVID-19 cases, the biggest advantage for the healthcare system is reducing the stress that the system suffers during the pandemic. We strongly believe that the financial savings far outweigh the initial development and implementation costs of our machine learning predictive model.
+
+In spite of the economic advantages that the implementation of the model carries, the most important impact cannot be measured in terms of a currency. The main priority of our project is carrying out the examination of hundreds of thousands of students in a safe environment. The principal return on investment is ensuring the academic future of the young students, which is the main goal of the universities, while minimizing the impact on the number of those affected by the virus (priority of the healthcare stakeholders) and maximizing the happiness of the overall population with the policymakers, who they will see as capable of efficiently tackling problems under unforeseen circumstances and unprecedented stress levels.
+3. Framing the Problem as a Data Science Task
+
+In this step, the business goals must be translated into a data mining reality. It is essential to align these goals with our business strategy. Recall that the main objective is to develop a model that allows institutions to identify students at risk of COVID complications and to implement preventive measures according to the student’s risk level in order to reduce the risk of outbreaks and contagions. After identifying the business strategy goals, the data mining objectives must be identified. These objectives should be SMART (Specific, Measurable, Action-oriented, Realistic and Time-specific). 
+
+The first objective would be to determine which relevant characteristics make a student be considered as a person at risk for COVID 19. The selection of risk predictor parameters should have a correlation of at least 70% to segment the groups of students in a better way. Among these characteristics, it would be important to take into account the following:
+
+Demographic data: age, gender, geographic location, socioeconomic level.
+Medical history: previous illnesses, chronic illnesses, pathologies, know if the student or their closest family members have suffered from COVID, COVID results (PCR tests, antibodies), vaccination status, type of vaccinations given, etc.
+Academic data: level of education in which the student is enrolled, class attendance, previous grades.
+Educational institutions data: number of centers at regional and city level, type of institution (public, private), number of professors, number of students and distribution per course, class size and capacity.
+
+For the collection of these data it is important to consider various sources or historical records. Data can also be obtained through data mining techniques that explore large datasets.
+
+Examples of data sources and historical records:
+
+Statistics of the Ministry of Education: The Ministry of Education of Spain offers annual data reports about teachers, highschool students, professional training and university education in public and private sectors. On the other hand, the INEE (Instituto Nacional de Evaluación Educativa) in collaboration with the Ministry, elaborate evaluation reports of the educational system at national and international level. This includes an analysis of foreign students who are in Spain temporarily on international mobility programs, which would allow us to identify patterns of the foreign student population in emergency situations such as the pandemic.
+National Statistics Institute (INE): The INE publishes results of formal and/or non-formal education surveys by year. Formal education consists of the one provided by the system of schools, colleges, universities and other educational institutions. Non-formal education, on the other hand, are educational activities organized by institutions that do not grant an official degree. INE has available surveys on the influence of COVID-19 on formal and non-formal education, showing the number of people between different age ranges affected by the pandemic who wanted to do educational activities and could not.
+CRUE: This organization publishes an annual report called “La Universidad Española en Cifras” where it gathers detailed information about the different Spanish universities. The 2019-2020 report deals with relevant topics such as: the presence of COVID-19 in the performance of university activities, disruption of face-to-face teaching, student participation, use of digital platforms or analysis of the expenditure of the Spanish university system.
+
+The next objective would be to develop a classification model that predicts whether each student needs exceptional measures and the probability of complications due to COVID. The model should achieve an accuracy of 75% - 80% with a false positive and false negative rate of less than 10%. Training and validation of the model has to be performed with machine learning techniques and data handling:
+
+Machine Learning Techniques:
+
+Random forest: Combines the output of multiple decision trees to reach a single result during the training phase. These trees act individually, each is specialized in a particular aspect of data. When it comes to making predictions, each decision tree in the Random Forest casts its vote. Used for classification problems in our model, it would allow us to classify students into different levels of risk (low, high and sick). 
+
+K-Nearest Neighbors: Uses proximity to make classifications or predictions by finding the K nearest neighbors to a given data point based on a distance metric. Can be useful for identifying at-risk students based on similar characteristics with other students.
+
+Data Management Techniques:
+
+Cleaning data: 80% of the time will be spent in this phase as it is all about preparing the data to be useful. Data that is not valuable will be cleaned, such as reducing duplicate data, handling null data, and eliminating unnecessary metrics that are not strictly necessary. For example, if a student has not provided their immunization status, the value could be eliminated or imputed using the mean.
+ 
+Feature selection: with the random forest technique, the importance of each feature can be evaluated. We might find that vaccination status and previous illnesses are the most significant predictors, or we may find ourselves surprised by the importance of other factors.
+
+Coding of categorical variables: categorical variables can be transformed into a format used by machine learning algorithms. One of the most commonly used formats is the one-hot encoding format. For example, each type of vaccine received can be assigned a binary value (eg., Pfizer = 01, Moderna = 00, Jhonson = 10).
+
+
+4. Work Plan & Detailed Task Breakdown
+Data Description and Understanding
+This part involves a detailed examination of the dataset containing student health information, focusing on demographics, clinical data, ICU admissions, and related health outcomes to evaluate feature distributions, quality, and potential biases.
+Data Structure and Key Features
+Our dataset contains a wide range of features, including demographics (e.g., patient_id, country_of_residence, age, sex), medical history (e.g., fever_temperature, antibiotics, corticosteroid), and COVID-19-related clinical information (e.g., Outcome, Duration, admission_date, date_of_outcome).
+Key attributes, such as age and previous health interventions, are critical for assessing student vulnerability to severe outcomes. Detailed analysis of these features will provide insight into the primary factors influencing risk predictions.
+Data Quality and Completeness
+Initial quality checks will address missing values, particularly in health-related columns like Duration, Outcome, and medication administration fields (e.g., antibiotics, corticosteroid). The dataset shows some missing values in critical fields like tomography and date_commenced_collected, which require handling for accurate modeling.
+Outlier detection is essential, especially for continuous variables like fever_temperature and Duration, to identify any extreme values that could skew the model.
+Feature Distribution and Initial Insights
+We will analyze the distribution of key features to understand general health trends and identify relationships between demographics and potential COVID-19 outcomes. Exploring features like age and Duration will reveal initial trends regarding student health risks.
+A comprehensive understanding of the dataset structure and potential biases related to demographic factors is vital before progressing to modeling.
+
+Data Preprocessing
+Here we try to prepare the dataset for accurate predictive modeling by addressing missing data, encoding categorical features, and normalizing numerical attributes in alignment with educational and healthcare contexts.
+Handling Missing Values
+Missing data for continuous variables (e.g., fever_temperature, Duration) will be addressed through imputation techniques, such as mean or median imputation, ensuring statistical consistency without significantly distorting the distributions.
+For categorical variables like medical interventions (antibiotics, corticosteroid), mode imputation will be applied where necessary. In cases with more complex missingness patterns, we may explore advanced imputation strategies to maintain data integrity.
+Categorical Encoding
+Categorical variables such as sex, country_of_residence, and health status indicators will be encoded through one-hot or label encoding, making these features compatible with machine learning algorithms.
+Scaling and Normalizing Numerical Features
+Numerical attributes like age, fever_temperature, and Duration will be scaled and normalized, ensuring compatibility with model algorithms that are sensitive to feature scale.
+Outliers in health metrics (e.g., extremely high or low temperatures) will be addressed to reduce data skewness, balancing the distribution of health indicators and ensuring robust model performance.
+Exploratory Data Analysis (EDA)
+In this part our objective is to identify and analyze relationships within the health dataset to reveal potential predictors for assessing examination risks.
+Visualization and Trend Analysis:
+Employ visual tools like scatter plots, histograms, and heatmaps to capture trends, distributions, and correlations, particularly those between demographics and potential severity of COVID-19 outcomes.
+Focus on how chronic health conditions correlate with increased COVID-19 severity and ICU admissions, using these patterns to inform model features.
+Model Development and Testing
+This section consists of building, training, and evaluating machine learning models to predict student risk levels for examination-related health complications, using structured health and demographic data.
+Model Selection and Training
+Given the categorical and numerical mix of features (e.g., health outcomes, demographic indicators), we’ll explore models suitable for classification tasks, like Logistic Regression and Random Forest. Logistic Regression is effective for binary predictions (e.g., high or low risk), while Random Forest can accommodate multi-class risk levels based on health outcomes such as “Recovered” or severe cases.
+Training will involve cross-validation across various student demographic segments, ensuring the model’s reliability and minimizing any bias in predictions for different subgroups within the dataset.
+Hyperparameter Tuning and Validation
+Hyperparameter optimization will be a priority to ensure each model performs effectively, balancing accuracy and computational efficiency. Testing with validation sets will allow us to monitor for underfitting or overfitting, key issues given the range of health and demographic data in the dataset.
+Model Implementation
+Here we try to enable seamless integration of the predictive model with educational and healthcare institutions, allowing real-time student risk assessments.
+API for Real-Time Data Integration
+Design an API that supports real-time health updates and immediate risk predictions. This includes continuous data feeds for variables like fever_temperature to keep predictions current and accurate.
+User-Friendly Interface Development
+Develop a secure interface accessible to university health officials and exam coordinators, allowing them to view and interpret student risk assessments easily. This interface will prioritize data security, particularly for sensitive health information.
+System Integration
+Collaborate on integration logistics to ensure compatibility with existing university and healthcare systems. This will involve data mapping and standardization, ensuring features such as Outcome and Duration align consistently across systems.
+Model Evaluation
+In this section we want to assess the model’s accuracy and generalizability using key performance metrics.
+Evaluation Metrics
+Model performance will be evaluated using precision, recall, F1 score, and accuracy, focusing on its efficacy in predicting high-risk students for severe health outcomes.
+AUC-ROC Analysis for Sensitivity and Specificity
+Conduct AUC-ROC analysis to assess the model’s sensitivity (true positive rate) and specificity (true negative rate) in differentiating between different health outcomes (e.g., mild vs. severe cases).
+Summary Report and Recommendations
+Summarize performance outcomes in a report, highlighting model strengths and limitations, and suggesting enhancements based on observed trends in features like age, Outcome, and health conditions.
+Risk Assessment and Mitigation
+Here we want to ensure that ethical, privacy, and operational risks related to handling sensitive health data are addressed.
+Data Privacy and Compliance
+Assess compliance with data protection standards (e.g., HIPAA, GDPR), particularly for fields like age and sensitive health metrics. Strict privacy measures will be enforced in model deployment.
+Bias Mitigation
+Evaluate potential biases within features like sex and country_of_residence. By analyzing feature importance, we’ll ensure fair treatment of all demographic groups in model predictions.
+Security Protocols
+Establish protocols to secure data during storage, processing, and transfer. Given the sensitive nature of fields like Outcome and admission_date, data encryption and restricted access will be key.
+Final Reporting and Presentation
+This last part consists of communicating project results, methodologies, and actionable insights to stakeholders.
+Comprehensive Report
+Document the methodology, findings, and recommendations, focusing on the predictive power of features. This report will guide stakeholders in organizing safe examinations.
+Stakeholder Presentation
+A concise presentation will cover the key takeaways, such as model reliability and the implications of health trends, to help universities and healthcare institutions make informed decisions.
+Deployment Documentation
+Develop user manuals and technical guides for stakeholders, detailing model functionality and maintenance steps to support its integration and effective usage.
+Work Packages and Timeline
+Data Collection, Understanding, Preprocessing, and EDA: Tasks 1-4
+Model Development, Testing, Implementation, and Evaluation: Tasks 5-7
+(Close collaboration between the teams is necessary for validation and evaluation of model behaviors.)
+Risk Assessment & Mitigation: Task 8 (Joint effort between both groups.)
+Reporting & Presentation: Task 9
+Weeks 1-3: Data Understanding and Preprocessing
+Week 4: EDA
+Weeks 5-6: Model Development and Testing
+Week 7: Model Implementation 
+Week 8:  Buffer week if necessary
+Weeks 9-10: Model Evaluation and Risk Assessment
+Week 11: Final Reporting and Presentation
+Budget Summary
+Human Resources
+Total Cost: €110,000
+Team Composition and Roles: To complete this project over the 11-week timeline, we require a core team of 5-6 professionals. This team is composed of:
+2 Data Scientists for data understanding, exploratory data analysis (EDA), and model evaluation. They’ll be fully engaged during the initial phases (weeks 1-4), with ongoing part-time support for model evaluation and final reporting.
+2 Machine Learning (ML) Engineers focused on model development, testing, and implementation. Their primary work will take place in weeks 5-8, with additional part-time support for integration, maintenance, and reporting.
+1-2 Software Developers for API development, interface creation, and security protocols. These developers will work full-time during critical implementation weeks (7-8) and part-time on data security and integration throughout the project.
+Cost Breakdown: With an estimated cost of €10,000 per week, assuming a salary of 2,000/week and not all parties have to work at the same time. This budget covers salaries, time, and expertise for the team members across all project phases (data understanding, development, testing, implementation, and reporting). Calculated for 11 weeks, the total cost is: 11 weeks × €10,000 = €110,000
+Computational Resources
+Total Cost: €10,000
+Details: To support cloud computing, data storage, and high-performance hardware, the budget is set at €1,000 per week. This covers storage and computational needs, including scaling during model training and evaluation. The costs during the training phase of the model will probably be the highest, since it requires the most gpu/cpu resources. After the training we still need computational results that are always available to serve our model for predictions.
+10 weeks × €1,000 = €10,000
+Software and Security
+Software Licenses: €5,000. This includes machine learning and analytics platform licenses for the entirety of the project. It also covers software for data security, which is crucial in our scenario.
+Miscellaneous Expenses
+Total Cost: €10,000. Covers essential items such as training materials, documentation, and any additional costs that might occur and are difficult to envision beforehand..
+Total Budget: €135,000. This adjusted budget provides a balanced allocation across each project phase, accounting for the 11-week timeline and focusing resources on critical areas like human resources and computational support.
+5. Risk Analysis
+Data Risks
+Incomplete or Missing Data: COVID-19 is a new disease. Every day, scientists are discovering new symptoms, causes and outcomes, as well as the uncertainty surrounding its transmission and how to minimize the risks of contracting it. The data required to build such a model may be incomplete or even lacking. Students are usually young and healthy individuals, and their health records may not provide enough information to accurately predict the seriousness of COVID’s impact on them. Missing information on conditions, vaccination status or recent exposures to the virus may lead to inaccurate predictions.
+
+Bias in Data Collection: The datasets the project will be working with are sourced from hospitals, which may lead to a overrepresentation of students with preexisting health conditions, or the ones that have already experienced enough symptoms to pay a visit to the hospital or even be admitted to the ICU. Furthermore, it may be the case that the data recollection process disproportionately represents certain groups (geographical regions, socioeconomic status, etc.).
+
+Data Cleaning Issues: depending on the rigorousness of the data recollection process, we may be dealing with human input mistakes, differences between different sources (different hospitals may record different information, use different data formats, etc.). This is why it's vital to have a careful data preparation process. 
+
+Incorrect Conclusions: if the data is inaccurate or biased, it may lead our machine learning model to make misleading predictions, which may impact the decision making processes of policy makers, health providers and academic institutions, potentially putting student’s health in a position of jeopardy.
+Model Risks
+Prediction Bias: if the model overemphasizes certain variables over the rest, we may be dealing with inaccurate biases. It is very likely that some symptoms are more frequent in the sourced data (for example fever or excess of mucus), and the machine learning model may classify the students suffering from these as part of the high-risk group, when in reality, those symptoms may be one of the least severe.
+
+Accuracy & Reliability: COVID-19 is a very recent and complex virus, and understanding its nature is not trivial. The unprecedented character of this pandemic, and their unpredictable effects on younger populations is a challenge for the model, and we need it to be reliable in order to make informed decisions. False positives and false negatives carry risks with significant consequences for everyone involved in this project, so minimizing them must be a priority.
+
+Scalability: as it was previously mentioned, COVID poses a very recent challenge, and the dataset the model is going to be trained on is limited, which can cause the analysis to struggle when being generalized to bigger populations (test-taking students in the country). If the model takes in biased data, this poses a risk when implementing it in environments with different characteristics. 
+
+Adaptability: this virus is rapidly evolving and new characteristics are being discovered every other day. In such a short period of time, we have had different variants that transmit differently and produce different symptoms. Our model needs to adapt to fresh incoming datasets, giving more importance to the newer information to ensure it remains relevant.
+
+Ethical/Privacy Risks
+Sensitive Data: health-related data brings significant legal and ethical concerns. Data handling must adhere to present regulations to protect privacy and prevent sensitive information from falling into the wrong hands. A security breach poses a great threat to the students and the institutions that handle the data.
+
+Transparency: consent to treat such sensitive data is vital for the project, especially considering most of the students are minors. They must be provided with clear and concise explanations of the purposes of the use of their data, to avoid legal trouble and distrust from the population.
+
+Stigmatization: the classification of students in these groups based on their risk must be done very carefully, as it can produce anxiety or impact the academic performance of those labeled as high-risk. Confidential and sensitive communication between the institutions and the students must be ensured.
+
+Operational Risks
+Implementation: the organizations in charge of the project (universities, hospitals and local authorities) may have limited resources (infrastructure, technology and manpower), potentially leading to issues related to integrating the model, sharing data between the organizations or communicating under a high-stress environment.
+
+Training: in order to effectively use the model, adequate training for the staff must be provided. That is, data managers, educators, authorities in charge of management and providers must be trained in a wide range of skills (operation of the model, interpretation for the outputs, management of the different groups, etc.), all while dealing with the pandemic and in a very restricted time window. Failure to do this will greatly compromise the success of the project and jeopardize the academic outcome and the health of the population.
+
+Setting-up Testing Environments: creating adequate conditions for the different risk groups poses logistical and financial challenges. The availability of the different test spaces, scheduling of alternative testing dates, the increase of the number of educators responsible for supervising the exams and potentially providing an online platform for those unavailable to attend is a very challenging task on a big scale, even more so if the resources are limited.
+
+Coordination: the project’s success is very closely tied to the ability of universities, hospitals and public officials to communicate and work together. The collaboration between them may be challenging due to different priorities and regulations, and any flaw can destabilize the project, affecting academic performance and student safety.
+
+Chaos Engineering: the success of the project is going to be hindered multiple times by the unpredictable nature of the COVID-19 virus. By introducing controlled chaos (data outages, transmission and hospitalization surges, system errors), it is possible to identify vulnerabilities and reduce the likelihood of the appearance of unexpected issues and strengthen the reliability of the project iin crisis scenarios.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6. Viability Analysis
+
+The goal of this project is to create a predictive model to help identify students at risk of severe COVID-19 complications, particularly during exam periods. This feasibility analysis considers the project from various angles, including technical, economic, legal, ethical, operational, and time constraints.
+
+Technological Feasibility
+
+From a technical perspective, the project is viable since required data from educational institutions, health records and the national census exist. Although data deficiencies may occur as a result of the pandemic’s dynamic nature, the targeted data repairing and preprocessing measures will deal with them effectively. The project team will be instructed with the relevant skills, and the required tools and technologies are within reach. The necessary computational resources regarding data processing and model training have been budgeted and are in place, as universities and healthcare institutions have the computational power to implement the machine learning model.
+
+Financial Feasibility
+
+From an economic perspective, the costs, including efficient allocation of resources, optimization of test situations, enhancement of diagnosis and treatment, reduction of healthcare costs and maintenance of learning process are well worth the expenditure. This estimate treats salaries, computing power, program packages, security and some other expenditures, where savings and the social impact cover the initial investment estimated to be 135.000€.
+
+The legal and ethical viability is also guaranteed by the regulations for the protection of personal data, including GDPR avoiding sues.
+
+Such steps as data de-identification, archiving data, and seeking informed consent do help to maintain the privacy and confidentiality of the subjects of the study. Ethical aspects are addressed with the focus on avoiding stigmatization and guaranteeing transparency with the supervision from an ethics committee.
+
+Operational Feasibility
+
+
+From an operational point of view, the project is realistic because of the existing linkages between universities, healthcare providers and authorities. The institutions have the relevant infrastructure and staff training is included to guarantee effective implementation. Lines of communication and support systems are clearly defined to enable coordination and help in addressing issues in a timely manner.
+
+The project has an implementation schedule that is practical. The project is to be implemented within an 11 week schedule with well defined stages and a comfort time allowance to cater for unexpected setbacks. For the project, personnel and facilities are commensurate to project requirements and there are proper project management styles to follow the schedule.
+
+Overall, the project is feasible but requires a significant initial investment and careful planning, well worth it as it ensures the academic future of the students while minimizing the risks associated with the pandemic. The projected advantages are well in excess of the costs and the activities involved. It is advisable to take further action and implement it on the whole, involving the relevant stakeholders from the beginning, all the time managing any potential risks and with strict adherence to the legal and ethical requirements. The project has great potential in improving safety for students and preserving learning during the COVID-19 period which could be replicated for similar projects in other parts of the world.
